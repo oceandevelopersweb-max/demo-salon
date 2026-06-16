@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Arabian Saloon | Luxury Beauty — Dubai, UAE</title>
+<meta name="description" content="Award-winning luxury hair, nails, lashes &amp; beauty salon. Located at Al Barsha Grand Plaza, Dubai, UAE.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<!-- PRELOADER -->
+<div class="preloader" id="preloader">
+  <div class="preloader-inner">
+    <div class="preloader-logo">
+      <span>A</span><span>R</span><span>A</span><span>B</span><span>I</span><span>A</span><span>N</span>
+      <span class="space"> </span>
+      <span>S</span><span>A</span><span>L</span><span>O</span><span>O</span><span>N</span>
+    </div>
+    <p class="preloader-sub">LUXURY SALOON · DUBAI</p>
+    <div class="preloader-line"></div>
+  </div>
+</div>
+
+<!-- PARTICLES -->
+<div id="particles"></div>
+
+<!-- FLOATING WHATSAPP -->
+<a href="#" class="floating-wa" target="_blank" aria-label="Book on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+  <span>Book Now</span>
+</a>
+
+<!-- SERVICE MODAL -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose"><i class="fa-solid fa-xmark"></i></button>
+    <div class="modal-icon"><i id="modalIcon"></i></div>
+    <h3 id="modalTitle"></h3>
+    <p id="modalDesc"></p>
+    <ul id="modalBenefits"></ul>
+    <a href="#" class="primary-btn modal-book" target="_blank">Book This Service</a>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="logo">
+    <h2>ARABIAN SALOON</h2>
+    <span>LUXURY SALOON</span>
+  </div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#" class="book-btn" target="_blank">Book Appointment</a>
+  <div class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-bg">
+    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1800&auto=format&fit=crop" alt=" Arabian Saloon Interior" class="hero-img active" id="heroImg0">
+    <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1800&auto=format&fit=crop" alt="Hair Transformation" class="hero-img" id="heroImg1">
+    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=1800&auto=format&fit=crop" alt="Blonde Coloring" class="hero-img" id="heroImg2">
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="hero-tag">★ 4.9 Google Rating · 554 Reviews · Dubai, UAE ★</span>
+    <h1>Luxury Beauty.<br><em>Exceptional Confidence.</em></h1>
+    <p>Award-winning hair, nails, lashes & beauty services inside Al Barsha Grand Plaza.</p>
+    <div class="hero-buttons">
+      <a href="#" class="primary-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i> Book on WhatsApp
+      </a>
+      <a href="#services" class="secondary-btn">Explore Services</a>
+    </div>
+  </div>
+  <div class="hero-dots">
+    <span class="hdot active" data-i="0"></span>
+    <span class="hdot" data-i="1"></span>
+    <span class="hdot" data-i="2"></span>
+  </div>
+  <div class="scroll-indicator"><span></span></div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="stat-card">
+    <h3 class="counter" data-target="554" data-suffix="+">0</h3>
+    <p>5-Star Reviews</p>
+  </div>
+  <div class="stat-card">
+    <h3 class="counter" data-target="49" data-format="rating">0</h3>
+    <p>Google Rating</p>
+  </div>
+  <div class="stat-card">
+    <h3 class="counter" data-target="7700" data-format="social">0</h3>
+    <p>Instagram Followers</p>
+  </div>
+  <div class="stat-card">
+    <h3 class="counter" data-target="12" data-suffix="+">0</h3>
+    <p>Premium Services</p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+  <div class="section-header">
+    <span class="eyebrow">OUR SERVICES</span>
+    <h2>Signature Beauty Services</h2>
+    <p>Each service is a curated experience, not just a treatment.</p>
+  </div>
+  <div class="service-grid">
+
+    <div class="service-card" data-service="extensions">
+      <div class="sc-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+      <h3>Hair Extensions</h3>
+      <p>Premium volume and length solutions, applied by certified specialists.</p>
+      <span class="sc-cta">View Details <i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+
+    <div class="service-card" data-service="haircut">
+      <div class="sc-icon"><i class="fa-solid fa-scissors"></i></div>
+      <h3>Haircuts</h3>
+      <p>Precision cuts shaped to your face, lifestyle and personal aesthetic.</p>
+      <span class="sc-cta">View Details <i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+
+    <div class="service-card" data-service="styling">
+      <div class="sc-icon"><i class="fa-solid fa-spa"></i></div>
+      <h3>Hair Styling</h3>
+      <p>Elegant event-ready styles from soft waves to glamorous updos.</p>
+      <span class="sc-cta">View Details <i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+
+    <div class="service-card" data-service="blowdry">
+      <div class="sc-icon"><i class="fa-solid fa-wind"></i></div>
+      <h3>Blow Dry</h3>
+      <p>Smooth, polished and long-lasting finishes with luxury product care.</p>
+      <span class="sc-cta">View Details <i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+
+    <div class="service-card" data-service="coloring">
+      <div class="sc-icon"><i class="fa-solid fa-palette"></i></div>
+      <h3>Hair Coloring</h3>
+      <p>Professional coloring using the finest European color systems.</p>
+      <span class="sc-cta">View Details <i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+
+    <div class="service-card" data-service="signature">
+      <div class="sc-icon"><i class="fa-solid fa-star"></i></div>
+      <h3>Signature Coloring</h3>
+      <p>Exclusive custom color transformations designed just for you.</p>
+      <span class="sc-cta">View Details <i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+
+    <div class="service-card" data-service="treatment">
+      <div class="sc-icon"><i class="fa-solid fa-droplet"></i></div>
+      <h3>Hair Treatments</h3>
+      <p>Deep nourishment, restoration and bond-rebuilding therapies.</p>
+      <span class="sc-cta">View Details <i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+
+    <div class="service-card" data-service="koreanspa">
+      <div class="sc-icon"><i class="fa-solid fa-leaf"></i></div>
+      <h3>Korean Hair Spa</h3>
+      <p>Luxury scalp and hair rejuvenation inspired by K-beauty rituals.</p>
+      <span class="sc-cta">View Details <i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+
+    <div class="service-card" data-service="nails">
+      <div class="sc-icon"><i class="fa-solid fa-hand-sparkles"></i></div>
+      <h3>Nail Services</h3>
+      <p>Exquisite manicures and nail art designed to make a statement.</p>
+      <span class="sc-cta">View Details <i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+
+    <div class="service-card" data-service="waxing">
+      <div class="sc-icon"><i class="fa-solid fa-gem"></i></div>
+      <h3>Waxing Services</h3>
+      <p>Smooth, professional hair removal with premium comfort wax.</p>
+      <span class="sc-cta">View Details <i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+
+    <div class="service-card" data-service="threading">
+      <div class="sc-icon"><i class="fa-solid fa-feather"></i></div>
+      <h3>Threading Services</h3>
+      <p>Clean, precise eyebrow and facial threading for a polished look.</p>
+      <span class="sc-cta">View Details <i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+
+    <div class="service-card" data-service="lashes">
+      <div class="sc-icon"><i class="fa-solid fa-eye"></i></div>
+      <h3>Eyelash Services</h3>
+      <p>Natural and glamorous lash enhancement — wake up flawless.</p>
+      <span class="sc-cta">View Details <i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="experience">
+  <div class="experience-media">
+    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1400&auto=format&fit=crop" alt=" Arabian Saloon Interior">
+    <div class="exp-badge">
+      <div class="exp-badge-stars">★★★★★</div>
+      <div class="exp-badge-score">4.9</div>
+      <div class="exp-badge-label">Google Rating</div>
+    </div>
+  </div>
+  <div class="experience-content">
+    <span class="eyebrow">ARABIAN SALOON EXPERIENCE</span>
+    <h2>Where Beauty Meets Confidence</h2>
+    <p>At Arabian Saloon, every appointment is a personal ritual — built around your vision, delivered with precision by specialists who genuinely love what they do.</p>
+    <p>Located inside Al Barsha Grand Plaza, we've become Dubai's most trusted destination for luxury beauty, with over 554 five-star reviews and a team that treats every client like a VIP.</p>
+    <div class="exp-features">
+      <div class="exp-feat"><i class="fa-solid fa-check"></i> Premium Product Brands</div>
+      <div class="exp-feat"><i class="fa-solid fa-check"></i> Certified Beauty Specialists</div>
+      <div class="exp-feat"><i class="fa-solid fa-check"></i> Personalized Consultations</div>
+      <div class="exp-feat"><i class="fa-solid fa-check"></i> Luxury Hotel Setting</div>
+    </div>
+    <a href="#" class="primary-btn" target="_blank">Reserve Your Visit</a>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="gallery">
+  <div class="section-header">
+    <span class="eyebrow">OUR WORK</span>
+    <h2>Beauty Transformations</h2>
+    <p>A glimpse at what we create every day.</p>
+  </div>
+  <div class="gallery-grid">
+    <div class="gallery-item tall">
+      <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=900&auto=format&fit=crop" alt="Hair Transformation">
+      <div class="gallery-overlay"><h3>Hair Transformation</h3></div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=900&auto=format&fit=crop" alt="Blonde Coloring">
+      <div class="gallery-overlay"><h3>Blonde Refresh</h3></div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?q=80&w=900&auto=format&fit=crop" alt="Nails">
+      <div class="gallery-overlay"><h3>Luxury Nails</h3></div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1589710751893-f9a6770ad71b?q=80&w=687&auto=format&fit=crop" alt="Lashes">
+      <div class="gallery-overlay"><h3>Lash Extensions</h3></div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=900&auto=format&fit=crop" alt="Hair Styling">
+      <div class="gallery-overlay"><h3>Event Styling</h3></div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?q=80&w=900&auto=format&fit=crop" alt="Salon Interior">
+      <div class="gallery-overlay"><h3>Our Salon</h3></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" class="reviews">
+  <div class="section-header">
+    <span class="eyebrow">CLIENT REVIEWS</span>
+    <h2>Loved By Hundreds In Dubai</h2>
+  </div>
+  <div class="testimonial-wrapper">
+    <button class="t-btn prev" id="tPrev"><i class="fa-solid fa-chevron-left"></i></button>
+    <div class="testimonial-track">
+
+      <div class="testimonial-card active">
+        <div class="t-stars">★★★★★</div>
+        <p>"Amazing experience from start to finish. The staff were professional, friendly and truly understood what I wanted. My hair color turned out absolutely perfect."</p>
+        <h4>— Sarah A.</h4>
+        <span class="t-source">via Google</span>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="t-stars">★★★★★</div>
+        <p>"Best salon experience I've had in Dubai. The specialist understood exactly the blonde tone I was going for. The atmosphere inside Al Barsha Grand Plaza is just beautiful."</p>
+        <h4>— Noor K.</h4>
+        <span class="t-source">via Google</span>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="t-stars">★★★★★</div>
+        <p>"I came for lash extensions and left feeling like a completely new person. The precision and care they take is unmatched. Will never go anywhere else in Dubai."</p>
+        <h4>— Fatima R.</h4>
+        <span class="t-source">via Google</span>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="t-stars">★★★★★</div>
+        <p>"My nails have never looked this good. The nail team is incredibly talented and the products they use are premium. Already booked my next appointment."</p>
+        <h4>— Layla M.</h4>
+        <span class="t-source">via Google</span>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="t-stars">★★★★★</div>
+        <p>"The Korean Hair Spa was an experience I didn't know I needed. My scalp felt incredible and my hair had so much shine afterwards. Luxury in every sense."</p>
+        <h4>— Mariam H.</h4>
+        <span class="t-source">via Google</span>
+      </div>
+
+    </div>
+    <button class="t-btn next" id="tNext"><i class="fa-solid fa-chevron-right"></i></button>
+  </div>
+  <div class="t-dots" id="tDots"></div>
+  <div class="google-badge">
+    <i class="fab fa-google"></i>
+    <span><strong>4.9★</strong> · 554 verified reviews on Google</span>
+  </div>
+</section>
+
+<!-- INSTAGRAM -->
+<section class="instagram-section">
+  <div class="section-header">
+    <span class="eyebrow">@ARABIANSALOON</span>
+    <h2>Follow Our Journey</h2>
+    <p>Daily beauty inspiration, transformations and behind-the-scenes from the salon floor.</p>
+  </div>
+  <div class="insta-grid">
+    <a href="#" target="_blank" class="insta-card">
+      <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=600&auto=format&fit=crop" alt="Hair Transformation">
+      <div class="insta-hover"><i class="fab fa-instagram"></i></div>
+    </a>
+    <a href="#" target="_blank" class="insta-card">
+      <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=600&auto=format&fit=crop" alt="Blonde">
+      <div class="insta-hover"><i class="fab fa-instagram"></i></div>
+    </a>
+    <a href="#" target="_blank" class="insta-card">
+      <img src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?q=80&w=600&auto=format&fit=crop" alt="Nails">
+      <div class="insta-hover"><i class="fab fa-instagram"></i></div>
+    </a>
+    <a href="#" target="_blank" class="insta-card">
+      <img src="https://images.unsplash.com/photo-1589710751893-f9a6770ad71b?q=80&w=687&auto=format&fit=crop" alt="Lashes">
+      <div class="insta-hover"><i class="fab fa-instagram"></i></div>
+    </a>
+    <a href="#" target="_blank" class="insta-card">
+      <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=600&auto=format&fit=crop" alt="Styling">
+      <div class="insta-hover"><i class="fab fa-instagram"></i></div>
+    </a>
+    <a href="#" target="_blank" class="insta-card">
+      <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?q=80&w=600&auto=format&fit=crop" alt="Salon">
+      <div class="insta-hover"><i class="fab fa-instagram"></i></div>
+    </a>
+  </div>
+  <a href="#" class="primary-btn" target="_blank" style="margin-top:50px;display:inline-block;">
+    <i class="fab fa-instagram"></i> Follow @arabiansaloon
+  </a>
+</section>
+
+<!-- LOCATION -->
+<section id="contact" class="location">
+  <div class="location-map">
+    <iframe src="https://maps.google.com/maps?q=al+barsha+dubai&t=&z=14&ie=UTF8&iwloc=&output=embed" allowfullscreen loading="lazy" title=" Arabian Saloon Location"></iframe>
+  </div>
+  <div class="location-content">
+    <span class="eyebrow">FIND US</span>
+    <h2>Arabian Saloon</h2>
+    <p>Nestled inside Al Barsha Grand Plaza, our salon offers a true luxury escape in the heart of Dubai.</p>
+    <ul class="loc-list">
+      <li><i class="fa-solid fa-location-dot"></i><span>12 Luxury Boulevard, Al Barsha District<br>Dubai, UAE</span></li>
+      <li><i class="fa-solid fa-phone"></i><span>+971 50 123 4567</span></li>
+      <li><i class="fa-brands fa-whatsapp"></i><span>+971 50 123 4567</span></li>
+      <li><i class="fa-solid fa-clock"></i><span>Open Daily · 10:00 AM – 8:00 PM</span></li>
+    </ul>
+    <a href="#" class="primary-btn" target="_blank">
+      <i class="fab fa-whatsapp"></i> Book on WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="cta-inner">
+    <span class="eyebrow">YOUR TRANSFORMATION AWAITS</span>
+    <h2>Ready For a New You?</h2>
+    <p>Book your appointment today and experience why Dubai trusts Arabian Saloon.</p>
+    <a href="#" class="cta-btn" target="_blank">
+      <i class="fab fa-whatsapp"></i> WhatsApp Booking
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <h2>ARABIAN SALOON</h2>
+      <p>Luxury Saloon · Dubai, UAE</p>
+    </div>
+    <div class="footer-nav">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#experience">Experience</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-contact">
+      <p><i class="fa-solid fa-phone"></i> +971 50 123 4567</p>
+      <p><i class="fa-brands fa-whatsapp"></i> +971 50 123 4567</p>
+      <p><i class="fa-solid fa-location-dot"></i> 12 Luxury Blvd, Al Barsha, Dubai</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-social">
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p class="copyright">© 2026 Arabian Saloon. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
